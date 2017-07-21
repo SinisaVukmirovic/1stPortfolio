@@ -1,0 +1,876 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+}
+
+body h2, h3, h6, a {
+	font-family: 'Comfortaa', cursive;
+}
+
+body p {
+	font-family: 'Contrail One', cursive;
+}
+
+/*div.cover-img {
+	width: 100%;
+	height: auto;
+}
+
+div.cover-img img {
+	width: 100%;
+	height: auto;
+	opacity: 0.8;
+}*/
+
+div.hero-img {
+	background-image: url(graphic/hero-img2.jpg);
+	background-size: cover;
+	background-position: top left;
+	width: 100%;
+	height: 100vh;
+}
+
+div.hero-img nav.navbar ul {
+	display: block;
+	float: right;
+	list-style: none;
+	margin: 10% 12% 0 0;
+	padding: 0;
+	border-right: 3px solid #4580c2;
+	font-weight: 900;
+}
+
+div.hero-img nav.navbar ul li {
+	margin: 30px;
+	padding: 0px;
+	text-align: right;
+}
+
+div.hero-img nav.navbar ul li a {
+	font-family: 'Comfortaa', cursive;
+	text-decoration: none;
+	padding: 10px 20px;
+	color: white;
+	font-size: 25px;
+}
+
+div.hero-img nav.navbar ul li a:hover {
+	background-color: #4580c2; 
+}
+
+/*div.title {
+	float: right;
+	font-family: 'Monoton', cursive;
+	color: white;
+	text-align: left;
+	font-size: 30px;
+	letter-spacing: 30px;
+	margin-bottom: 15%;
+	position: absolute;
+	bottom: -15%;
+	right: 20%;
+}*/
+
+/*div.container div.prvi {
+	margin: 0 1% 0 0; 
+}
+
+div.container div.treci {
+	margin: 0 0 0 1%; 
+}
+
+div.prvi {
+	background-image: url(graphic/levo-2.jpg);
+	background-size: cover;
+	background-position: top left;
+	width: 25%;
+	min-width: 169px;
+	height: auto;
+}
+
+div.drugi {
+	text-align: center;
+	width: 48%;
+}
+
+div.treci {
+	background-image: url(graphic/desno-2.jpg);
+	background-size: cover;
+	background-position: top right;
+	width: 25%;
+	min-width: 168px;
+}
+
+div.drugi h1 {
+	font-family: 'Baloo Bhaina', cursive;
+	font-size: 50px;
+	letter-spacing: 35px;
+	/*line-height: 50px;*/
+/*	color: #595959;   			
+	margin-bottom: 10px;
+}
+
+div.drugi h2 {
+	font-family: 'Contrail One', cursive;
+	font-size: 30px;
+	letter-spacing: 5px;
+	margin-bottom: 10px;
+	color: #595959;
+}
+
+div.prvi ul {
+	text-align: right;
+	list-style: none;
+	font-size: 22px;
+	padding: 0px 20px 0px 0;
+	margin: 0;
+}
+
+div ul li {
+	padding: 12px;
+}
+
+div ul li a {
+	font-family: 'Baloo Bhaina', cursive;
+	text-decoration: none;
+	color: #595959;
+	font-weight: bold;
+	padding: 0 10px;
+	border-radius: 5px;
+
+}
+
+div ul li a:hover {
+	background-color: #eef1f7;
+}
+
+div.treci ul {
+	text-align: left;
+	list-style: none;
+	font-size: 20px;
+	padding: 0px 0px 0px 20px;
+	font-size: 22px;
+	margin: 0;
+}				*/					/*end of navbar style*/
+
+
+section#info {
+	text-align: center;
+	margin-top: 75px;
+	font-size: 30px;
+}
+
+section#info h2 {
+	font-size: 45px;
+	margin-bottom: 0;
+	margin-top: -20px;
+}
+
+div.container-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-image: url(graphic/backcover3.jpg);
+	background-size: cover;
+	background-position: top left;
+	/*background-color: #eef1f7;*/
+}
+
+span.white-text {
+	color: #595959;
+    font-weight: 300;
+}
+
+
+
+div.info-prvi {
+	order: 2;
+	width: 35%;
+	height: auto;
+	text-align: center;
+}
+
+/*div.info-prvi h3, h6 {
+	margin: 30px;
+	color: whitesmoke;
+}*/
+
+div.info-prvi h3 {
+	margin: 20px;
+	font-size: 28px;
+	color: white;
+}
+
+div.info-prvi h6 {
+	margin: 20px;
+	font-size: 24px;
+	color: whitesmoke;
+}
+
+div.info-prvi div.dva-dela {
+	display: flex;
+	flex-direction: column;
+}
+
+div.info-prvi div.dva-dela h3, span {
+	color: white;
+	font-weight: 700;
+}
+
+div.info-profile {
+	order: 1;
+	width: 30%;
+	height: auto;
+}
+
+div.info-profile img {
+	width: 100%;
+	height: auto;
+}
+
+div.info-treci {
+	order: 0;
+	font-family: 'Contrail One', cursive;
+	width: 35%;
+	font-size: 25px;
+	color: whitesmoke;
+}
+
+div.info-treci span {
+	font-family: 'Baloo Bhaina', cursive;
+	font-size: 25px;
+	color: white;
+}
+									/*end of info section*/
+
+section.about-skills {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 70px;
+	margin-top: 30px;
+}
+
+article#about {
+	width: 45%;
+	text-align: center;
+}
+
+article#skills {
+	width: 45%;
+}
+
+div.centriranje {
+	width: 80%;
+	margin-left: 10%;
+}
+
+article#skills h3 {
+	color: #13141d;
+	font-size: 30px;
+	font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+article#about h3 {
+	color: #13141d;
+	font-size: 30px;
+	font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+article#skills p {
+	color: #13141d;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0 8px 30px;
+}
+
+article#about p {
+	color: #13141d;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 20px 0 30px 0px;
+}
+
+article#skills div.progress-bar {
+	width: 100%;
+	height: 36px;
+	background-color: #a2c4ea;              /*svetlo plava*/
+	font-family: 'Comfortaa', cursive;
+}
+
+article#skills div.value1 {
+	width: 15%;
+	height: 23px;
+	position: relative;
+	top: 7px;
+	left: 7px;
+	background-color: #4580c2;				/*tamno plava*/
+	color: white;
+	padding-left: 10px;
+	padding-top: 3px;
+}
+
+article#skills div.value2 {
+	width: 30%;
+	height: 23px;
+	position: relative;
+	top: 7px;
+	left: 7px;
+	background-color: #4580c2;
+	color: white;
+	padding-left: 10px;
+	padding-top: 3px;
+}
+
+article#skills div.value3 {
+	width: 70%;
+	height: 23px;
+	position: relative;
+	top: 7px;
+	left: 7px;
+	background-color: #4580c2;
+	color: white;
+	padding-left: 10px;
+	padding-top: 3px;
+}
+
+article#skills div.value4 {
+	width: 45%;
+	height: 23px;
+	position: relative;
+	top: 7px;
+	left: 7px;
+	background-color: #4580c2;
+	color: white;
+	padding-left: 10px;
+	padding-top: 3px;
+}
+								/*end of about skills style*/
+
+section#portfolio {
+	width: 100%;
+	text-align: center;
+	/*color: #13141d;*/
+	color: whitesmoke;
+	background-color: #242424;
+
+	font-size: 30px;
+	font-weight: 400;
+    letter-spacing: 1px;
+}
+
+section#portfolio h3 {
+	font-size: 45px;
+	margin-bottom: 15px;
+	padding-top: 40px;
+}
+
+/*section#portfolio a {
+	font-size: 30px;
+	color: whitesmoke;
+}*/
+
+section#portfolio ul {
+	list-style: none;
+	padding: 0;
+}
+
+section#portfolio ul li {
+	display: inline-block;
+	padding: 10px 50px;
+}
+
+section#portfolio ul li a {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+div.portfolio-examples {
+	width: 90%;
+	margin-left: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+
+div.example {
+	width: 32%;
+	max-height: 300px;
+	margin-bottom: 2%;
+}
+
+div.example img {
+	width: 100%;
+	height: 100%;
+}
+										/*end of portfolio style*/
+
+section#services {
+	width: 100%;
+	text-align: center;
+	/*color: #13141d;*/
+	color: black;
+
+	font-size: 45px;
+	font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 50px;	
+}
+
+section#services h3 {
+	margin-bottom: 20px;
+}
+
+section#services h6 {
+	font-size: 22px;
+	margin: 20px 0;
+}
+
+section#services div.features {
+	width: 90%;
+	margin-left: 5%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+section#services div.features div.feature {
+	display: flex;
+	flex-direction: column;
+	width: 31%;
+	margin: 1%;
+	padding: 15px;
+	justify-content: center;
+	font-size: 22px;
+	border-radius: 30px;
+	border: 3px solid #a2c4ea;
+}
+
+section#services div.features div.feature span {
+	color: #4580c2;
+	font-size: 80px;
+	margin-top: 20px;
+}
+									/*end of services style*/
+
+section#contacts {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+	background-image: url(graphic/contact-cover.jpg);
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+div.hidden {
+	width: 55%;
+}
+
+section#contacts div.contacts {
+	align-self: right;
+	max-width: 600px;
+	display: flex;
+	flex-direction: column;
+	font-size: 30px;
+	color: white;
+	padding: 0 3%;
+}
+
+section#contacts div.contacts h5 {
+	font-size: 20px;
+	margin: 10px;
+	padding: 5px 15px;
+}
+
+section#contacts div.contacts span {
+	font-size: 26px;
+	color: white;
+	margin: 10px;
+	padding: 5px 15px;
+}
+
+section#contacts div.contacts div.row {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+footer.row {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+										/*media query */
+@media screen and (max-width: 1100px) {
+	div.drugi h1 {
+		font-size: 40px;
+		letter-spacing: 20px;
+	}
+
+	/*div.info-prvi h3, h6, p {
+		margin: 20px;
+		font-size: 20px;
+	}*/
+
+	div.info-prvi h3 {
+		margin: 20px;
+		font-size: 24px;
+		color: white;
+	}
+
+	div.info-prvi h6 {
+		margin: 20px;
+		font-size: 20px;
+		color: whitesmoke;
+	}
+
+	div.info-treci {
+		font-size: 20px;
+		/*width: 60%;*/
+	}
+
+	div.info-treci span {
+		font-size: 20px;
+	}
+
+	section#info h2 {
+		margin-top: -20px;
+		font-size: 50px;
+	}
+
+	article#about p {
+	    font-size: 20px;
+	    margin-left: 0px;
+	}
+
+	div.example {
+		width: 49%;
+		max-height: 400px;
+		margin-bottom: 2%;
+	}
+
+	section#services div.features div.feature {
+		width: 46%;
+		margin: 2%;
+		border-radius: 40px;
+	}
+
+
+}	
+
+											/*srednji ekran*/
+@media screen and (max-width: 850px) {
+	div.drugi h1 {
+		font-size: 35px;
+		letter-spacing: 15px;
+	}
+
+	div.prvi ul, div.treci ul {
+		font-size: 20px;
+	}
+
+	div.prvi ul {
+		padding: 0px 10px 0px 0;
+	}
+
+	div.info-prvi div.dva-dela h3, span {
+		color: #242424;
+	}
+
+	div.treci ul {
+		padding: 0px 0px 0px 10px;
+	}	
+
+	div.info-treci {
+		width: 60%;
+		font-size: 25px;
+	}
+
+	div.container-info {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	div.info-prvi {
+		width: 100%;
+		text-align: center;
+	}
+
+	div.info-prvi h3, h6 {
+		margin: 20px;
+		font-size: 20px;
+		color: black;
+	}
+
+	div.info-prvi  p {
+		margin: 20px;
+		font-size: 18px;
+		color: #242424;
+	}
+
+	div.info-prvi div.dva-dela {
+		display: flex;
+		flex-direction: row;
+		background-color: white;
+		justify-content: center;
+		align-items: center;
+	}
+
+	div.info-profile {
+		width: 40%;
+		height: auto;
+	}		
+
+	section#info h2 {
+		margin-top: -40px;
+		font-size: 40px;
+	}				
+
+	section.about-skills {
+		display: flex;
+		flex-direction: column;
+	}			
+
+	article#about {
+		width: 100%;
+		text-align: center;
+		background-color: #eef1f7;
+	}
+
+	article#skills {
+		width: 100%;
+	}
+
+	div.centriranje {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+
+	div.info-prvi h3 {
+		margin: 20px;
+		font-size: 24px;
+		color: black;
+	}
+
+	div.info-prvi h6 {
+		margin: 20px;
+		font-size: 20px;
+		color: #242424;
+	}
+
+	div.dva-dela {
+		padding-top: 30px;
+	}
+
+	/*div.example {
+		width: 49%;
+		max-height: 300px;
+		margin-bottom: 2%;
+	}*/
+
+	section#services div.features div.feature {
+		width: 100%;
+		border-radius: 50px;
+	}
+
+
+	
+}
+
+
+
+											/*media query mali ekran*/
+@media screen and (max-width: 670px) {
+
+	div.container {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+
+	div.info-profile {
+		width: 100%;
+		background-image: url(graphic/backcover3opc.jpg);
+		background-size: cover;
+		background-position: top left;
+	}
+
+	div.info-profile img {
+		width: 60%;
+		height: auto;
+	}
+
+	div.container-info {
+		background-image: none;
+		background-size: cover;
+		background-position: top left;
+	}
+
+	div.drugi {
+		order: 2;
+		width: 100%;
+	}
+
+	div.prvi, div.treci {
+		width: 50%;
+	}
+
+	div.drugi h1 {
+		letter-spacing: 5px;
+	}
+
+	div.container div.prvi {
+		margin: 0;
+		border-bottom-right-radius: 0; 
+	}
+
+	div.container div.treci {
+		margin: 0; 
+		border-bottom-left-radius: 0;
+	}
+
+	div.prvi ul {
+		padding: 0px 10px 0px 0;
+	}
+
+	div.treci ul {
+		padding: 0px 0px 0px 10px;
+	}
+
+	div.drugi h1 {
+		letter-spacing: 25px;
+		margin-top: 10px;
+	}
+
+	div.drugi h2 {
+		font-size: 30px;
+		letter-spacing: 5px;
+		margin-bottom: 10px;
+	}
+
+	div ul li {
+		padding: 8px;
+	}
+
+	div.info-treci {
+		width: 100%;
+		background-color: #eef1f7;
+	}
+
+	div.info-treci p {
+		margin: 12px 0;
+		font-size: 18px;
+		color: #242424;
+	}
+
+	div.info-treci span {
+		color: #595959;
+	}
+
+	div.info-prvi h3 {
+		margin: 20px;
+		font-size: 20px;
+		color: black;
+	}
+
+	div.info-prvi h6 {
+		margin: 20px;
+		font-size: 16px;
+		color: #242424;
+	}
+
+	article#about p {
+	    font-size: 18px;
+	    margin-left: 0px;
+	}
+
+	div.example {
+		width: 100%;
+		max-height: 500px;
+		margin-bottom: 2%;
+	}
+
+	section#portfolio h3 {
+		font-size: 30px;
+		margin-bottom: 15px;
+		padding-top: 20px;
+	}
+
+	section#portfolio {
+		font-size: 20px;
+	}
+
+	/*div.container-info {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	div.info-prvi {
+		width: 100%;
+		text-align: center;
+	}
+
+	div.info-prvi div.dva-dela {
+		display: flex;
+		flex-direction: row;
+		background-color: white;
+		justify-content: center;
+		align-items: center;
+	}
+
+	div.info-profile {
+		width: 50%;
+		height: auto;
+	}*/
+
+	section#contacts div.contacts {
+		font-size: 22px;
+	}
+
+	section#contacts div.contacts h5 {
+		font-size: 16px;
+		margin: 10px;
+		padding: 5px 10px;
+	}
+
+	section#contacts div.contacts span {
+		font-size: 20px;
+		color: white;
+		margin: 10px;
+		padding: 5px 10px;
+	}
+	
+}
+
+											/*extra mali */
+@media screen and (max-width: 500px) {
+	div.drugi h1 {
+		letter-spacing: 15px;
+		margin-top: 10px;
+	}
+}
